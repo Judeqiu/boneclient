@@ -27,7 +27,7 @@ public class Bone {
 		bones.add(bone);
 		return bone;
 	}
-	
+	public void d(){}
 	public static void removeBone(Bone bone){
 		if(bone==null)
 			return;
@@ -44,6 +44,7 @@ public class Bone {
 	public boolean isActive(){
 		return statusActive;
 	}
+	
 	
 	/**
 	 * Start the Bone<br>
