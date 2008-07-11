@@ -27,7 +27,7 @@ public class Bone {
 		bones.add(bone);
 		return bone;
 	}
-	public void d(){}
+	public void c(){}
 	public static void removeBone(Bone bone){
 		if(bone==null)
 			return;
