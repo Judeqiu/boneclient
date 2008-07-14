@@ -27,7 +27,7 @@ public class Bone {
 		bones.add(bone);
 		return bone;
 	}
-	public void c(){}
+	
 	public static void removeBone(Bone bone){
 		if(bone==null)
 			return;
@@ -65,5 +65,13 @@ public class Bone {
 		this.statusActive = false;
 	}
 	
-	
+	/**
+	 * Send a request to remote BoneServer
+	 * @param s
+	 * @return
+	 */
+	public String sendRequest(String s){
+		//TODO: request 
+		return null;
+	}
 }
