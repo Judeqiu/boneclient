@@ -45,6 +45,9 @@ public class Bone {
 		return statusActive;
 	}
 	
+	public void test(){
+		
+	}
 	
 	/**
 	 * Start the Bone<br>
